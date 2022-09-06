@@ -39,4 +39,20 @@ My goal is to gain knowledge of the front-end developer and further employment i
 *Count characters in your string*
 
 
+```
+function count (string) {  
+    let coincidense = {};
+    let ammount = 0;
+    for(let i = 0; string.length > i; i++) {
+        ammount = 0;
+       for(let j = 0; string.length > j; j++){
+        if(string[i] == string[j]) {
+            ammount ++;
+            coincidense[`${string[i]}`] = ammount;   
+        }
+       }     
+    }
+     return coincidense;
+  }
 
+```
