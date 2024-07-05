@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+div {
+  font-size: 45px;
+  text-align: center;
+}
