@@ -24,6 +24,7 @@
           <li class="header__item"><a class="header__link" href="#contacts">Contacts</a></li>
           <li class="header__item"><a class="header__link" href="#projects">Projects</a></li>
           <li class="header__item"><a class="header__link" href="#languages">Languages</a></li>
+          <li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
         </ul>
       </nav>
     </header>
@@ -78,6 +79,38 @@
           </p>
         </div>
       </section>
+      <section class="main__wrap-info" id="skills">
+        <div class="main__subwrap">
+          <h2 class="main__title">Skills</h2>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>Node.js</p>
+          <p>GIT</p>
+          <p>Webpack</p>
+          <p>Ajax</p>
+          <p>REST API</p>
+          <p>TypeScript</p>
+          <p>SASS</p>
+          <p>Eslint</p>
+        </div>
+        </section>
+        <section class="main__wrap-info prewrap">
+          function count (string) {
+            let coincidense = {};
+            let ammount = 0;
+            for(let i = 0; string.length > i; i++) {
+                ammount = 0;
+               for(let j = 0; string.length > j; j++){
+                if(string[i] == string[j]) {
+                    ammount ++;
+                    coincidense[`${string[i]}`] = ammount;
+                }
+               }
+            }
+             return coincidense;
+          }
+        </section>
     </main>
     <footer class="footer container">
       <div class="footer__wrap-logo">

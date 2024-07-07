@@ -91,3 +91,10 @@ a {
   max-width: 1200px;
   margin: 0px auto;
 }
+
+.prewrap {
+  white-space: pre-wrap;
+  background-color: rgb(165, 202, 235);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
