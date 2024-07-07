@@ -47,14 +47,22 @@ a {
   font-size: 22px;
 }
 .main {
-  background-color: rgb(215, 233, 194);
 
 }
-.main__about-me {
+.main__wrap-info {
   border: 4px solid rgb(184, 206, 184);
   font-size: 18px;
+  margin: 80px 0;
+}
+.main__subwrap {
+  background-color: rgb(215, 233, 194);
   padding: 10px;
-
+  line-height: 160%;
+}
+.main__title {
+  padding: 0 0 25px 0;
+}
+.main__text {
 }
 .footer {
   display: flex;
