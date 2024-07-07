@@ -11,7 +11,7 @@
 
 <body class="body">
   <div class="wrap">
-    <header class="header">
+    <header class="header container">
       <div class="header__name-photo">
         <div class="header__photo photo">
           <img class="photo" src="person.jpg" alt="person">
@@ -20,24 +20,46 @@
       </div>
         <nav class="header__wrap-navigation">
           <ul class="header__navigation">
-            <li><a href="">Contacts</a></li>
-            <li><a href="">Project</a></li>
-            <li><a href="">Languages</a></li>
-            <li><a href="">Education</a></li>
+            <li class="header__item"><a class="header__link" href="">Education</a></li>
+            <li class="header__item"><a class="header__link" href="">Contacts</a></li>
+            <li class="header__item"><a class="header__link" href="">Projects</a></li>
+            <li class="header__item"><a class="header__link" href="">Languages</a></li>
           </ul>
         </nav>
     </header>
-    <main class="main">
-      <section class="about-me">
-        Finished his studies at the Faculty of Biology. Worked for 3 years in the laboratory of microbiological method.
-        At the moment I work merchandising of the confectionery factory “Spartac”. My level of English B1. My main
-        direction of learning English is alive communication with people.
-        I’m interested in creating computer games and have little experience developing JS games using css and html.
-        Also, I perform some task from previous stages RSS and you are able to check if you're interested.
-        My goal is to gain knowledge of the front-end developer and further employment in the received specialty.
+    <main class="main container">
+      <section class="main__about-me">
+        <div class="main__general">
+          <h2 class="main__title">In General</h2>
+          <div class="main__info">
+            Finished his studies at the Faculty of Biology. Worked for 3 years in the laboratory of microbiological method.
+            At the moment I work merchandising of the confectionery factory “Spartac”. My level of English B1. My main
+            direction of learning English is alive communication with people.
+            I’m interested in creating computer games and have little experience developing JS games using css and html.
+            Also, I perform some task from previous stages RSS and you are able to check if you're interested.
+            My goal is to gain knowledge of the front-end developer and further employment in the received specialty.
+          </div>
+        </div>
       </section>
+      <section class="main__info">
+        <h2 class="main__title">Education</h2>
+        <p>Faculty of Biology</p>
+        <p>RSS JS/FE 2022 (1 stage)</p>
+        <p>RSS JS/FE 2023 (3 stage) but didn't pass 3 stages</p>
+      </section>
+      <section class="main__info">
+        <h2 class="main__title">Contacts</h2>
+        <p>Location: Minsk, Belarus</p>
+        <p>E-mail: dmitrij.didencko@yandex.by</p>
+        <p>Telegram:@warp5t</p>
+        <p>GitHub:@warp5t</p>
+        <p>Discord: warp5t#8930</p>
+      </section>
+      <section class="main__info">
+        <h2 class="main__title">Projects</h2>
+      </sectionc>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
       <div class="footer__wrap-logo">
         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 552.8 205.3">
@@ -125,6 +147,7 @@
           </g>
         </svg>
       </div>
+      <div class="footer__year">2024</div>
       <div class="footer__wrap-link">
         <a href="https://rs.school/courses/javascript-ru">RSS Course</a>
       </div>
